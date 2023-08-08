@@ -1,11 +1,18 @@
 :root {
   --main-colour: rgb(54, 39, 6);
-  --secondary-colour: rgb(172, 185, 146);
-  --light-colour: rgb(211, 208, 79);
+  --secondary-colour: rgb(208, 245, 190);
+  --light-colour: rgb(251, 255, 220);
 }
 
 body {
+  background-color: var(--light-colour);
   font-family: "Nunito";
+}
+
+footer {
+  background-color: var(--main-colour);
+  color: var(--secondary-colour);
+  padding: 50px;
 }
 
 header {
@@ -17,7 +24,7 @@ header {
   background-size: cover;
   color: var(--main-colour);
   margin-top: 50px;
-  padding: 100px;
+  padding: 150px;
   text-align: center;
 }
 
@@ -35,12 +42,24 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 50px;
+}
+
+.about-me {
+  text-align: justify;
 }
 
 .container {
   margin: 0 auto;
   max-width: 1300px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.headline {
+  margin-bottom: 50px;
 }
 
 .learn-more-button {
@@ -58,4 +77,17 @@ h3 {
 .learn-more-button:hover {
   color: var(--secondary-colour);
   background-color: var(--main-colour);
+}
+
+.more-info-list {
+  margin-top: 0;
+  padding: 0;
+}
+
+.more-info-list li {
+  list-style: none;
+}
+
+.more-info-list a {
+  color: var(--secondary-colour);
 }
