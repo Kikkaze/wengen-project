@@ -1,0 +1,61 @@
+:root {
+  --main-colour: rgb(54, 39, 6);
+  --secondary-colour: rgb(172, 185, 146);
+  --light-colour: rgb(211, 208, 79);
+}
+
+body {
+  font-family: "Nunito";
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("../images/wengen.jpg");
+  background-size: cover;
+  color: var(--main-colour);
+  margin-top: 50px;
+  padding: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 100px;
+  font-variant: small-caps;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.learn-more-button {
+  background-color: var(--secondary-colour);
+  border: none;
+  border-radius: 5px;
+  color: var(--main-colour);
+  font-family: "Nunito";
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.learn-more-button:hover {
+  color: var(--secondary-colour);
+  background-color: var(--main-colour);
+}
