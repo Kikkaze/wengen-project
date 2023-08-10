@@ -5,7 +5,6 @@
 }
 
 body {
-  background-color: var(--light-colour);
   font-family: "Nunito";
 }
 
@@ -29,8 +28,9 @@ header {
 }
 
 h1 {
-  font-size: 100px;
-  font-variant: small-caps;
+  font-size: 80px;
+  line-height: 2;
+  text-transform: uppercase;
   margin: 0;
 }
 
@@ -48,6 +48,14 @@ h3 {
   text-align: justify;
 }
 
+.central-grid {
+  background-color: var(--light-colour);
+  color: var(--main-colour);
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding: 50px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1300px;
@@ -59,6 +67,7 @@ h3 {
 }
 
 .headline {
+  margin-top: 0;
   margin-bottom: 50px;
 }
 
@@ -90,4 +99,12 @@ h3 {
 
 .more-info-list a {
   color: var(--secondary-colour);
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
+
+.wengen-paragraph {
+  padding: 30px;
 }
