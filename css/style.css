@@ -48,6 +48,15 @@ h3 {
   text-align: justify;
 }
 
+.alltrails {
+  height: 300px;
+  width: 100%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
 .central-grid {
   background-color: var(--light-colour);
   color: var(--main-colour);
@@ -67,6 +76,14 @@ h3 {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 50px;
   padding: 50px 50px;
+}
+
+.embeds-title {
+  background-color: var(--main-colour);
+  color: var(--secondary-colour);
+  margin: 0;
+  padding: 50px;
+  text-align: center;
 }
 
 .footer-grid {
@@ -111,6 +128,23 @@ h3 {
 
 .small-caps {
   font-variant: small-caps;
+}
+
+.trail {
+  background-color: var(--secondary-colour);
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.trail-specs {
+  padding: 0;
+}
+
+.trail-specs li {
+  font-variant: small-caps;
+  font-weight: 700;
+  list-style: none;
 }
 
 .wengen-paragraph {
