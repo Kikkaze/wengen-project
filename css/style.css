@@ -60,6 +60,14 @@ h3 {
   text-align: justify;
 }
 
+.about-me a {
+  color: var(--secondary-colour);
+}
+
+.about-me a:hover {
+  color: var(--light-colour);
+}
+
 .alltrails {
   height: 300px;
   width: 100%;
