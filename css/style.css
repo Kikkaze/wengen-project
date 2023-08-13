@@ -154,6 +154,7 @@ h3 {
 }
 
 .trail a {
+  color: var(--main-colour);
   text-decoration: none;
 }
 
@@ -180,6 +181,10 @@ h3 {
 }
 
 @media (max-width: 800px) {
+  body {
+    margin: 0;
+  }
+
   header {
     background-position: center;
     padding: 100px 0;
@@ -211,6 +216,11 @@ h3 {
     text-align: center;
   }
 
+  .central-grid img {
+    margin: 30px 0;
+    width: 200px;
+  }
+
   .embeds {
     display: block;
     padding: 10px;
@@ -238,11 +248,11 @@ h3 {
     padding: 0 20px;
   }
 
-  .trail ul {
-    margin: 10px 100px;
-  }
-
   .learn-more-button {
     font-size: 10px;
+  }
+
+  .wengen-paragraph {
+    padding: 0 30px;
   }
 }
