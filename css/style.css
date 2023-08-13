@@ -61,6 +61,14 @@ h3 {
   max-width: 1300px;
 }
 
+.embeds {
+  background-color: var(--main-colour);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 50px 50px;
+}
+
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
