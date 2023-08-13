@@ -5,12 +5,18 @@
 }
 
 body {
+  background-color: var(--main-colour);
   font-family: "Nunito";
 }
 
 footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/flower.jpg");
   background-color: var(--main-colour);
+  background-position: -300px 50%;
+  background-size: cover;
   color: var(--secondary-colour);
+  margin-bottom: 50px;
   padding: 50px;
 }
 
@@ -82,7 +88,7 @@ h3 {
   background-color: var(--main-colour);
   color: var(--secondary-colour);
   margin: 0;
-  padding: 50px;
+  padding-top: 50px;
   text-align: center;
 }
 
@@ -131,10 +137,23 @@ h3 {
 }
 
 .trail {
-  background-color: var(--secondary-colour);
+  background-color: var(--light-colour);
   border: none;
   border-radius: 10px;
+  color: var(--main-colour);
   padding: 30px;
+}
+
+.trail a {
+  text-decoration: none;
+}
+
+.trail a:hover {
+  opacity: 80%;
+}
+
+.trail a:visited {
+  color: var(--main-colour);
 }
 
 .trail-specs {
